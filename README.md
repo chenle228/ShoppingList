@@ -37,7 +37,7 @@ To get started with the Shopping List, follow these steps:
    git clone https://github.com/your-username/shopping-list-app.git
 2. **Navigate to the Project Directory**:
    ```bash
-   cd shopping-list-app
+   cd ShoppingList
 3. **Install Dependencies**:
    ```bash
    npm install
