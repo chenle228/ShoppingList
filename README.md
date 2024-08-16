@@ -30,7 +30,7 @@ Welcome to the **Shopping List**, your personal assistant for shopping! 🎉 Thi
 
 ## 📦 Installation
 
-To get started with the Shopping List Application, follow these steps:
+To get started with the Shopping List, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
