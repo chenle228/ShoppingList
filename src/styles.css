@@ -1,0 +1,114 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.search-bar {
+  position: relative;
+  display: inline-block;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.dropdown-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.dropdown-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover,
+.dropdown-list .highlighted {
+  background-color: #d3d3d3;
+}
+
+.shopping-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shopping-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.shopping-list li.checked {
+  color: grey;
+}
+
+.shopping-list .item-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.shopping-list .quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.shopping-list .quantity-controls button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.shopping-list .quantity-controls input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.shopping-list button {
+  margin: 0 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.shopping-list .toggle-button {
+  margin-right: 10px;
+}
+
+.shopping-list .delete-button {
+  margin-left: 10px;
+}
+
+.reorder-controls {
+  display: flex;
+  align-items: center;
+  margin-right: 10;
+}
